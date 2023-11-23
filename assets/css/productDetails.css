@@ -1,0 +1,57 @@
+.select-size {
+    margin-bottom: 20px;
+}
+
+.select-size label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.button-add-to-cart button {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: inherit;
+    width: 100%;
+}
+
+.button-add-to-cart {
+    margin-bottom: 20px;
+}
+
+.button-add-to-cart button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.content-of-items {
+    font-size: 16px;
+    color: #000;
+    letter-spacing: normal;
+    line-height: 1.2;
+}
+
+.select-size-property .btn-group-change button {
+    background-color: #fff;
+    border-top: 1px solid #e1e1e191;
+    border-bottom: 1px solid #e1e1e191;
+    border-right: 0;
+    border-left: 0;
+    width: 100%;
+    padding: 5px 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.select-size-property .dropdown-menu.show {
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(87px, 0px, 0px) !important;
+}

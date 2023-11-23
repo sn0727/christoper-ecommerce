@@ -1,0 +1,497 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+/* @font-face {
+    font-family: "Basis Grotesque Pro Medium";
+    src: url("https://db.onlinewebfonts.com/t/1d46ed49ac2b61f10bd7a1c088c4bdc5.eot");
+    src: url("https://db.onlinewebfonts.com/t/1d46ed49ac2b61f10bd7a1c088c4bdc5.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/1d46ed49ac2b61f10bd7a1c088c4bdc5.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/1d46ed49ac2b61f10bd7a1c088c4bdc5.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/1d46ed49ac2b61f10bd7a1c088c4bdc5.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/1d46ed49ac2b61f10bd7a1c088c4bdc5.svg#Basis Grotesque Pro Medium")format("svg");
+} */
+
+@font-face {
+    font-family: basis-grotesque-medium-pro;
+    src: url('../fonts/basis-grotesque-medium-pro.ttf'),
+}
+
+@font-face {
+    font-family: basis-grotesque-off-white-pro;
+    src: url('../fonts/basis-grotesque-off-white-pro.ttf'),
+}
+
+@font-face {
+    font-family: BigCaslon;
+    src: url('../fonts/BigCaslon.ttf'),
+}
+
+@font-face {
+    font-family: EngraversGothic-BT-Regular;
+    src: url('../fonts/EngraversGothic-BT-Regular.ttf'),
+}
+
+.hello-main ul li:nth-child(1) {
+    font-size: 32px;
+    font-family: basis-grotesque-medium-pro;
+}
+
+.hello-main ul li:nth-child(2) {
+    font-size: 32px;
+    font-family: basis-grotesque-off-white-pro;
+}
+
+.hello-main ul li:nth-child(3) {
+    font-size: 32px;
+    font-family: BigCaslon;
+}
+
+.hello-main ul li:nth-child(4) {
+    font-size: 32px;
+    font-family: EngraversGothic-BT-Regular !important;
+}
+
+a {
+    font-family: EngraversGothic-BT-Regular !important;
+}
+
+a,
+ul {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h3,
+h5 {
+    font-family: BigCaslon !important;
+}
+
+h2 {
+    font-family: "Basis Grotesque Pro Medium";
+}
+
+.top-header-fs {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+}
+
+.top-header-fs .container {
+    height: 100%;
+}
+
+.top-header-fs-in {
+    height: 100%;
+}
+
+.top-header-fs .top-header-fs-in ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-brand img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.top-header-fs .top-header-fs-in ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-header-fs .top-header-fs-in ul li {
+    list-style-type: none;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.top-header-fs .top-header-fs-in ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+.tiktok-image img {
+    max-width: 22px;
+}
+
+.instagram-icon i {
+    font-size: 22px;
+}
+
+.side-image {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+
+.side-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.content-inside {
+    text-align: center;
+    padding: 70px 140px 0;
+}
+
+.content-inside h2 {
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.content-inside h3 {
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.content-inside02 .lg-text1 {
+    font-size: 170px;
+    text-align: center;
+    line-height: 127px;
+    margin-top: 10px;
+}
+
+.content-inside02 img {
+    width: 100%;
+}
+
+.content-inside-chage {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.content-inside-chage h3 {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.content-inside-chage p {
+    font-size: 13px;
+    font-family: EngraversGothic-BT-Regular !important;
+    font-weight: 600;
+    color: #000;
+}
+
+.the-story-section {
+    background-color: #000;
+    padding: 25px 60px;
+    color: #fff;
+}
+
+.image-bx-category img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image-top {
+    text-align: center;
+    margin: 0 50px 50px;
+}
+
+.image-top img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.category-section .col-md-3 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.footer-list {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.footer-list ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+}
+
+.footer-list ul li a {
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: EngraversGothic-BT-Regular !important;
+}
+
+.details-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.details-image {
+    width: 100%;
+    height: 600px;
+}
+
+.details-content p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.inner-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-details img {
+    width: 100%;
+    max-width: calc(180px - 7px);
+    min-height: 230px;
+}
+
+/* Styling for the Add to Cart section */
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px;
+}
+
+.product-image {
+    flex: 1;
+    max-width: 200px;
+    /* Set the maximum width of the product image */
+}
+
+.product-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.add-to-cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Style the button on hover */
+.add-to-cart-button:hover {
+    background-color: #0056b3;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-image {
+    max-width: 100px;
+}
+
+.product-info p {
+    margin: 0;
+}
+
+.min-heiset {
+    height: 500px;
+    overflow-x: auto;
+}
+
+/* ==================== login form css code ======================= */
+.sign-form {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.instagram-icon.postionset {
+    position: relative;
+}
+
+.card-notification {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.newtitleClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.loginBgColor {
+    background-color: #dcdcdc70;
+}
+
+.add-class-new-add div a {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.add-class-new-add div {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.add-class-new-add {
+    gap: 10px;
+}
+
+.add-class-new-add > div {
+    max-width: calc(20% - 10px) !important;
+}
+
+.banner-Top-tile {
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.banner-Top-tile li {
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.banner-Top-tile li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-family: basis-grotesque-off-white-pro !important;
+}
+
+/* ================= media css code : max-width: 767px ============= */
+@media screen and (max-width: 767px) {
+    .footer-list ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .the-story-section {
+        padding: 25px;
+    }
+    .content-inside {
+        padding: 50px 50px 0;
+    }
+    .banner-section .row {
+        padding: 0;
+        margin: 0;
+    }
+    .add-class-new-add > div {
+        flex: 0 0 calc(33% - 10px) !important;
+        max-width: calc(33% - 10px) !important;
+    }
+    .inner-details {
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+}
+
+/* ================= media css code : max-width: 767px ============= */

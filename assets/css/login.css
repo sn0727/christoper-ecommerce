@@ -1,0 +1,172 @@
+@font-face {
+    font-family: basis-grotesque-medium-pro;
+    src: url('../fonts/basis-grotesque-medium-pro.ttf'),
+}
+@font-face {
+    font-family: basis-grotesque-off-white-pro;
+    src: url('../fonts/basis-grotesque-off-white-pro.ttf'),
+}
+@font-face {
+    font-family: BigCaslon;
+    src: url('../fonts/BigCaslon.ttf'),
+}
+@font-face {
+    font-family: EngraversGothic-BT-Regular;
+    src: url('../fonts/EngraversGothic-BT-Regular.ttf'),
+}
+
+
+
+/* ============== login form css code by the alam : 11-14-2023 ============== */
+.form-signin-rt {
+    max-width: 500px;
+    margin: auto;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+}
+
+.form-signin-rt h1 {
+    text-align: center;
+    font-family: EngraversGothic-BT-Regular !important;
+}
+
+.form-signin-rt h1 span.login-in {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: ui-monospace;
+    font-style: italic;
+    position: relative;
+    left: -10px;
+}
+
+.form-signin-rt h1 span.login {
+    font-size: 32px;
+    font-style: inherit;
+    font-family: ui-monospace;
+}
+
+.form-signin-rt .input-field {
+    margin: 10px 0;
+}
+
+.form-signin-rt .input-field input {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px 10px 5px 0;
+    margin: 0;
+    font-size: 16px;
+    color: #433e3ecf;
+    background-color: #f0f0f0;
+}
+
+.form-signin-rt .input-field a.forgatePassword {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #000;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-family: basis-grotesque-off-white-pro;
+    text-decoration: none;
+}
+
+.form-signin-rt .input-field input:focus {
+    outline: none;
+}
+
+.form-signin-rt .button-submit {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    color: #000;
+    letter-spacing: 3px;
+}
+.form-signin-rt p.create-an-account {
+    text-align: center;
+}
+.form-signin-rt p.create-an-account a {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #433e3ecf;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-family: basis-grotesque-off-white-pro;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ============== sign up form css code by the alam : 11-14-2023 ============== */
+.form-signin-rt .contact-us {
+    border-bottom: 1px solid #433e3ecf;
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #000;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.form-signin-rt .input-field select {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #f0f0f0;
+}
+
+.form-signin-rt .input-field select:focus {
+    outline: none;
+}
+
+.form-signin-rt .input-field textarea {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px 10px 5px 0;
+    margin: 0;
+    font-size: 16px;
+    color: #433e3ecf;
+    background-color: #f0f0f0;
+}
+
+.form-signin-rt .input-field textarea:focus {
+    outline: none;
+}
+
+.form-signin-rt .input-field .usernameFull {
+    font-size: 15px;
+    color: #000;
+}
+
+.form-signin-rt .input-field .error-star {
+    color: red;
+    font-size: 15px;
+}
+
+
+/* ============== sign up and login in media on the mobile device form css code by the alam : 11-14-2023 ============== */
+
+@media screen and (max-width: 767px) {
+    .form-signin-rt {
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+        height: 100vh;
+    }
+}
