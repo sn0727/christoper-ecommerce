@@ -19,6 +19,13 @@ body {
         url("https://db.onlinewebfonts.com/t/1d46ed49ac2b61f10bd7a1c088c4bdc5.ttf")format("truetype"),
         url("https://db.onlinewebfonts.com/t/1d46ed49ac2b61f10bd7a1c088c4bdc5.svg#Basis Grotesque Pro Medium")format("svg");
 } */
+@font-face {
+    font-family: AlgerianRegular;
+    src: url('../fonts/AlgerianRegular.ttf'),
+}
+.AlgerianRegular h1, .AlgerianRegular p {
+    font-family: AlgerianRegular;
+}
 
 @font-face {
     font-family: basis-grotesque-medium-pro;
